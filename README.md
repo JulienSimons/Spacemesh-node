@@ -1,5 +1,5 @@
 # Spacemesh-node
-Spacemesh node PowerShell monitoring script for the Space Time blockchain architecture.<br>
+Spacemesh node PowerShell monitoring script for the Proof of Space Time blockchain architecture.<br>
 Made by the work of Spacemesh contributors Jonh and Sakki, and compiled by Julien S.<br>
 It was made to help beginners run the go-sm node for the Spacemesh protocol.<br>
 It automates 95% of the process of running a node and helps with readability through colors.<br>
