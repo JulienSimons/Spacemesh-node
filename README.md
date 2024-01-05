@@ -18,13 +18,13 @@ It automates 95% of the process of running a node and helps with readability thr
 <p>5.Disable Powershell Remote security.</p>
 <p>&emsp;-Open Powershell in admin and insert code:<br></p>
 <p$${\color{green}>&emsp;&emsp;Set-ExecutionPolicy RemoteSigned</p>
-<p>6. Edit Settings.ps1 with a file editor. NotePad++ is recommended.</p>
+<p>6. Edit settings.ps1 with a file editor. NotePad++ is recommended.</p>
 </div>
 
 <img src="https://github.com/xeliuqa/PowerScript/blob/main/assets/settings.png" height="200px" width="600px"/>
 <p>You can also edit advance settings if you know what you are doing.</p>
 <p>When finished editing settings, save, close and double click "node.cmd".</p>
-<p>If not present, Power Script will create PoST folder and Log file for you.</p>
+<p>If not present, this script will create a PoST folder and log file for you.</p>
 
 
 addOns
