@@ -10,7 +10,7 @@ It automates 95% of the process of running a node and helps with readability thr
 <div id="How to:" class="tabcontent">
 <p>1. Download latest go-spacemesh node <a href="https://github.com/spacemeshos/go-spacemesh/releases">go-spacemesh</a>.</p>
 <p>2. Create folder and unzip go-sm contents inside.<br></p>
-<p>3. Download <a href="https://configs.spacemesh.network/config.mainnet.json">config.mainnet.json</a></p>
+<p>3. Download <a href="https://configs.spacemesh.network/config.mainnet.json">config.mainnet.json</a>.</p>
 <p>&emsp;Edit ports and save inside same go-sm created above.<br></p>
 <p>4.Download Power Script files and put inside go-sm folder.<br>
   &emsp;Your folder should look like this:<br>
@@ -23,7 +23,7 @@ It automates 95% of the process of running a node and helps with readability thr
 
 <img src="https://github.com/xeliuqa/PowerScript/blob/main/assets/settings.png" height="200px" width="600px"/>
 <p>You can also edit advance settings if you know what you are doing.</p>
-<p>When finished editing settings, save,close and double click "node.cmd"</p>
+<p>When finished editing settings, save, close and double click "node.cmd".</p>
 <p>If not present, Power Script will create PoST folder and Log file for you.</p>
 
 
