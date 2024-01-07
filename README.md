@@ -36,16 +36,16 @@ Set -ExecutionPolicy -RemoteSigned
 ### Mainnet config settings
  ```json
  "smeshing": {
-    "smeshing-opts": {
-        "smeshing-opts-maxfilesize":2147483648,
-        "smeshing-opts-provider":4294967295,
-        "smeshing-opts-numunits":16,
-        "smeshing-opts-compute-batch-size":1048576
-      },
-    "smeshing-proving-opts": {
-        "smeshing-opts-proving-nonces":288,
-        "smeshing-opts-proving-threads":5
-      }
+       "smeshing-opts": {
+         "smeshing-opts-maxfilesize": 2147483648,
+         "smeshing-opts-numunits": 16,
+         "smeshing-opts-provider": 0,
+         "smeshing-opts-compute-batch-size": 1048576
+       },
+       "smeshing-proving-opts": {
+         "smeshing-opts-proving-nonces": 288,
+         "smeshing-opts-proving-threads": 11
+       }
   }
 ```
 
