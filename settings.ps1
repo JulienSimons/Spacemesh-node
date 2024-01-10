@@ -1,31 +1,31 @@
 
 ##################################################
 ## Spacemesh node PowerShell monitoring script. ##
-## Contributions by Jonh and Sakki. 		    ##
-## Compiled by Julien S. 					    ## 
-## Last edited: 01/05/24                        ##
+## Contributions by Jonh and Sakki. 		##
+## Compiled by Julien S. 			## 
+## Last edited: 01/10/24                        ##
 ##################################################
 
 function main {
-$currentDate = Get-Date -Format "yyyyMMdd_HHmmss"  	# Get current date (specified below as local time).
+$currentDate = Get-Date -Format "yyyyMMdd_HHmmss"  			# Get current date (specified below as local time).
 
 	#-------------------Start Editing-------------------
 
-    $title = "Spacemesh Node"	                 	# Name to show in window.
-    $walletAddress = "sm1qqqqqqxuu09fa4plqfzgq2deq0wwlvekdn5za8slt7nd4"  # Your SMH wallet address.
-    $provider = "0"									# Your GPU number; default 0. Found in Control Panel.
-    $numunits = "4" 								# 1 unit = 64GB; minimum of 4 units.
+    $title = "Spacemesh Node"	                 			# Name to show in window.
+    $walletAddress = "sm1qqqqqqxuu09fa4plqfzgq2deq0wwlvekdn5za8slt7nd4" # Your SMH wallet address.
+    $provider = "0"							# Your GPU number; default 0. Found in Control Panel.
+    $numunits = "8" 							# 1 unit = 64GB; minimum of 4 units.
     $postFileLocation = "D:\\node_1"					# PoST data location.
-    $filelock = "afairtest"							# Afair name; can be renamed to anything.
+    $filelock = "afairtest"						# Afair name; can be renamed to anything.
     $maxFileSize = "2147483648"						# .bin file size; default 4294967296 KB.
     #-------------------Stop Editing-------------------
     #-----------------Advance Settings-----------------
-    $config = ".\config.mainnet.json"				# config.mainnet.json file location.
+    $config = ".\config.mainnet.json"					# config.mainnet.json file location.
     $smdataLocation = ".\sm_data"					# Node dataBase location.
-    $tcpPort = "7513" 								# If port 7513 throws an error, change it (e.g. 7514) and try again.
-    $logOutputPath = "output_$currentDate.txt"		# Log name uses _$currentDate for diferent logs.
-    $goSpacemeshLocation = ".\go-spacemesh.exe"		# go-sm file location.
-    $localDateTime = "Yes" 							# Yes/No. This will change the log date into a localized Time/Date format.
+    $tcpPort = "7513" 							# If port 7513 throws an error, change it (e.g. 7514) and try again.
+    $logOutputPath = "output_$currentDate.txt"				# Log name uses _$currentDate for diferent logs.
+    $goSpacemeshLocation = ".\go-spacemesh.exe"				# go-sm file location.
+    $localDateTime = "Yes" 						# Yes/No. This will change the log date into a localized Time/Date format.
 
 	#-------------------Stop Editing-------------------
 
