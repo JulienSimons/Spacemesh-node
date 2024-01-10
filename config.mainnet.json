@@ -97,13 +97,13 @@
      "smeshing": {
        "smeshing-opts": {
          "smeshing-opts-maxfilesize": 2147483648,
-         "smeshing-opts-numunits": 16,
+         "smeshing-opts-numunits": 8,
          "smeshing-opts-provider": 0,
          "smeshing-opts-compute-batch-size": 1048576
        },
        "smeshing-proving-opts": {
-         "smeshing-opts-proving-nonces": 288,
-         "smeshing-opts-proving-threads": 11
+         "smeshing-opts-proving-nonces": 64,
+         "smeshing-opts-proving-threads": 1
        }
   }
 }
